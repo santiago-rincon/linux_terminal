@@ -256,8 +256,6 @@ repaint_delay 10
 input_delay 3
 sync_to_monitor yes
 
-# Zoom en las ventanas
-map ctrl+shift+z toggle_layout stack
 
 # Powerline
 tab_bar_style powerline
@@ -416,7 +414,8 @@ Finalmente se debe seguir las [instrucciones de instalación](https://nvchad.com
 ```bash
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 ```
-## Lista de shortcuts
+
+## Lista de shortcuts 
 
 - ctrl + shift + enter  => Abre una nueva terminal 
 - ctrl + <flechas de dirección>  => Desplazamiento entre ventanas 
@@ -428,3 +427,8 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 - ctrl +s hift + ,.  => Cambia de posición las pestañas de la powerline
 - ctrl + t  => Busqueda recursiva
 - ctrl + r  => Historial de comandos 
+- ctrl + alt+ clic  => Selecciona en formato cuadrado
+- f1  => Copia a un buffer a
+- f2  => Pega el contenido del buffer a
+- f3  => Copia a un buffer b
+- f4  => Pega el contenido del buffer b
