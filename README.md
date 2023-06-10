@@ -1,5 +1,3 @@
-# Configuración de la terminal Kitty para distribuciones Linux
-
 ## Descripción
 
 Configuración de la terminal Kitty para distribuciones Linux con las Hack Nerd Fonts, la Powerlevel10K, y una zsh como shell. Además del editor de texto nvim con el tema de [Nvchad](https://nvchad.com/) y el plugin fzf.
@@ -18,12 +16,30 @@ sudo apt update && sudo apt upgrade
 
 2. Instalación de paquetes necesarios: ahora se instalará los paquetes necesarios.
 
-- kitty
-- zsh 
-- zsh-syntax-highlighting 
-- zsh-autosuggestions
-- bat
-- git
+<table style="width:100%">
+<tr>
+<td>
+kitty 
+</td>
+<td>
+zsh 
+</td>
+<td>
+zsh-syntax-highlighting
+</td>
+</tr>
+<tr>
+<td>
+git 
+</td>
+<td>
+bat 
+</td>
+<td>
+zsh-autosuggestions
+</td>
+</tr>
+</table>
 
 ```bash
 sudo apt install kitty zsh zsh-syntax-highlighting zsh-autosuggestions bat git -y
@@ -380,7 +396,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 En el proceso de instalación se da la opción "yes" en todos los casos. 
 
-15. Instalación de Nvchad: para esta instalación se requiere neovim 0.9.0, se descarga [aquí](https://github.com/neovim/neovim/releases/tag/v0.9.0), una vez se descargue el binario ejecutable asegúrese que el binario _nvim_ este en una ruta del PATH (recomendada /usr/bin/) y además que el binario cuente con el permiso 755.
+15. Instalación de Nvchad: para esta instalación se requiere **neovim 0.9.0**, se descarga [aquí](https://github.com/neovim/neovim/releases/tag/v0.9.0), una vez se descargue el binario ejecutable asegúrese que el binario _nvim_ este en una ruta del PATH (recomendada /usr/bin/) y además que el binario cuente con el permiso 755.
 
 ```bash
 su root
